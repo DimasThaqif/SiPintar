@@ -1,0 +1,40 @@
+body {
+    background: linear-gradient(#F3C6F7, #56FFFF);
+}
+
+h2 {
+    font-family: 'Verdana', sans-serif;
+    font-weight: bold;
+}
+
+h3 {
+    font-family: 'Lexend', sans-serif;
+    font-weight: 600;
+}
+
+.highlight-si {
+    color: #007BFF;
+    /* Warna untuk "Si" */
+}
+
+.highlight-pintar {
+    color: #28A745;
+    /* Warna untuk "Pintar" */
+}
+
+.menu-link {
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'Courier New', sans-serif;
+}
+
+#team {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.card {
+    width: 300px;
+    margin-bottom: 20px;
+}
