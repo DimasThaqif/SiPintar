@@ -35,6 +35,14 @@ let questions = [{
         answer: 2,
     },
     {
+        question: "sebutkan....",
+        choice1: "ini",
+        choice2: "pasti ini",
+        choice3: "bukan yg ini",
+        choice4: "lah",
+        answer: 3,
+    },
+    {
         question: "siapa yang recal2?",
         choice1: "gibran",
         choice2: "prabowo",
@@ -45,7 +53,7 @@ let questions = [{
 ]
 
 const SCORE_POINTS = 100
-const MAX_QUESTIONS = 4
+const MAX_QUESTIONS = 5
 
 startGame = () => {
     questionCounter = 0
