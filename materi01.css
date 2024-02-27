@@ -1,0 +1,150 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(#F3C6F7, #56FFFF);
+    color: #333;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1100px;
+    margin: auto;
+    padding: 0 20px;
+}
+
+.header {
+    background: #007bff;
+    color: #ffffff;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+.header h1 {
+    margin: 0;
+}
+
+.content {
+    background: #ffffff;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.subheading {
+    color: #007bff;
+    margin-bottom: 20px;
+}
+
+.text {
+    margin-bottom: 20px;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.list-unstyled {
+    padding-left: 0;
+    list-style-type: none;
+}
+
+.list-item {
+    margin-bottom: 10px;
+}
+
+.btn {
+    display: inline-block;
+    background: #28a745;
+    color: #ffffff;
+    padding: 10px 20px;
+    margin: 20px 0;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background 0.3s ease;
+}
+
+.btn:hover {
+    background: #218838;
+}
+
+.footer {
+    background: #333;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+/* Base styles sudah ditambahkan sebelumnya, ini adalah tambahan untuk responsive design */
+
+/* Untuk tablet */
+@media (max-width: 992px) {
+    .container {
+        padding: 0 15px;
+    }
+
+    .header h1 {
+        font-size: 24px;
+    }
+
+    .content,
+    .footer {
+        padding: 20px 15px;
+    }
+}
+
+/* Untuk smartphone */
+@media (max-width: 768px) {
+    .header {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .header h1 {
+        font-size: 20px;
+    }
+
+    .subheading {
+        font-size: 18px;
+    }
+
+    .text {
+        font-size: 16px;
+    }
+
+    .btn {
+        padding: 8px 16px;
+        font-size: 16px;
+    }
+
+    /* Menyesuaikan grid atau layout jika ada */
+    .grid-container {
+        display: block;
+    }
+
+    .grid-item {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+}
+
+/* Untuk perangkat sangat kecil seperti smartphone dalam orientasi portrait */
+@media (max-width: 480px) {
+    .header h1 {
+        font-size: 18px;
+    }
+
+    .subheading {
+        font-size: 16px;
+    }
+
+    .text {
+        font-size: 14px;
+    }
+
+    .btn {
+        padding: 8px 12px;
+        font-size: 14px;
+    }
+}
